@@ -31,7 +31,7 @@ app.use(morgan('dev'));
 app.use('/api/auth', authRoutes);
 app.use('/api/letters', letterRoutes);
 app.use('/api/templates', templateRoutes);
-app.use('api/view',console.log("view"));
+
 
 // Error handling middleware
 app.use((err, req, res, next) => {
