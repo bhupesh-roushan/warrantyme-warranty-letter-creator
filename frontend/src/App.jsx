@@ -4,7 +4,7 @@ import Navbar from './components/Navbar';
 import Login from './components/auth/Login';
 import LetterEditor from './components/LetterEditor';
 import Dashboard from './components/Dashboard';
-import { auth } from './firebase/config';
+import { auth } from './firebase/config.js';
 import { onAuthStateChanged } from 'firebase/auth';
 
 function App() {
