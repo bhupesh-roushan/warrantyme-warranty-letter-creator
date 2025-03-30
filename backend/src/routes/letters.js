@@ -1,6 +1,6 @@
 import express from 'express';
 import { authenticateToken } from '../middleware/auth.js';
-import Letter from '../models/Letter.js';
+import Letter from './../models/letter.js';
 import { google } from 'googleapis';
 
 const router = express.Router();

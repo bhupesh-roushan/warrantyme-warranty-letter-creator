@@ -1,4 +1,4 @@
-import Letter from '../models/letter.js';
+import Letter from '././../models/letter.js';
 import googleDrive from '../utils/googleDrive.js';
 
 class LetterController {
