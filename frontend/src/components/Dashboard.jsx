@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { auth } from '../firebase/config';
-import { googleDriveService } from '../services/googleDrive';
+import { auth } from '../firebase/config.js';
+import { googleDriveService } from '../services/googleDrive.js';
 
 const Dashboard = () => {
   const [drafts, setDrafts] = useState([]);

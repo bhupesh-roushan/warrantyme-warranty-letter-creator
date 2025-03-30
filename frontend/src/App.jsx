@@ -1,9 +1,8 @@
 import { BrowserRouter as Router, Routes, Route, Navigate, useNavigate } from 'react-router-dom';
 import { useState, useEffect } from 'react';
-import Navbar from './components/Navbar';
-import Login from './components/auth/Login';
-import LetterEditor from './components/LetterEditor';
-import Dashboard from './components/Dashboard';
+import Login from './components/auth/Login.jsx';
+import LetterEditor from './components/LetterEditor.jsx';
+import Dashboard from './components/Dashboard.jsx';
 import { auth } from './firebase/config.js';
 import { onAuthStateChanged } from 'firebase/auth';
 

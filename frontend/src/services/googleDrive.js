@@ -1,4 +1,4 @@
-import { auth } from '../firebase/config';
+import { auth } from '../firebase/config.js';
 
 const GOOGLE_DRIVE_API_URL = 'https://www.googleapis.com/drive/v3';
 const GOOGLE_DOCS_API_URL = 'https://docs.googleapis.com/v1';

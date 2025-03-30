@@ -2,9 +2,9 @@ import React, { useState, useEffect } from 'react';
 import { useEditor, EditorContent } from '@tiptap/react';
 import StarterKit from '@tiptap/starter-kit';
 import Placeholder from '@tiptap/extension-placeholder';
-import { auth } from '../firebase/config';
+import { auth } from '../firebase/config.js';
 import { useNavigate, useSearchParams } from 'react-router-dom';
-import { googleDriveService } from '../services/googleDrive';
+import { googleDriveService } from '../services/googleDrive.js';
 
 const MenuBar = ({ editor }) => {
   if (!editor) {
